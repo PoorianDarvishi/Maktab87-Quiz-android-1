@@ -27,12 +27,15 @@
         tools:layout="@layout/fragment_sign_up" >
         <action
             android:id="@+id/action_signUpFragment_to_logInFragment"
-            app:destination="@id/logInFragment" />
+            app:destination="@id/logInFragment"
+            app:popUpTo="@id/logInFragment"
+            app:popUpToInclusive="true"/>
         <argument
             android:name="userName"
             app:argType="string" />
         <argument
             android:name="password"
             app:argType="string" />
+
     </fragment>
 </navigation>

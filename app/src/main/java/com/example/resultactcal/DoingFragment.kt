@@ -12,7 +12,7 @@ import com.example.resultactcal.databinding.FragmentDoingBinding
 class DoingFragment : Fragment(R.layout.fragment_doing) {
     lateinit var binding: FragmentDoingBinding
     private val taskViewModel: TaskViewModel by activityViewModels()
-    lateinit var adapter: Adapter
+    private lateinit var adapter: Adapter
     private lateinit var recyclerView: RecyclerView
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
