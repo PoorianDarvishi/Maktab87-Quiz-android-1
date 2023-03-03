@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_create_task"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_create_task" />
+
+    <item
+        android:id="@+id/navigation_to_do"
+        android:icon="@drawable/baseline_today_24"
+        android:title="@string/title_to_do" />
+
+    <item
+        android:id="@+id/navigation_doing"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_doing" />
+    <item
+        android:id="@+id/navigation_done"
+        android:icon="@drawable/baseline_check_24"
+        android:title="@string/title_done" />
+
+
+</menu>
